@@ -11,3 +11,32 @@ a:hover {
     color: #f08a14;
     text-decoration: none;
 }
+.header-page {
+    border-bottom: none;
+    box-shadow: 0px 16px 36px -20.5px #777;
+}
+.navbar-header-auto {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.navbar-brand img {
+    width: 222px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+    color: #2a5c99;
+    background-color: transparent;
+}
+.header-contact-phone a {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+}
+.header-contact {
+    text-align: right;
+}
