@@ -1,17 +1,10 @@
-var itemsCount=3;
-if (window.matchMedia("(max-width: 991px)").matches) {
-    itemsCount=2;
-}
-if (window.matchMedia("(max-width: 767px)").matches) {
-    itemsCount=1;
-}
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:itemsCount,
+    items:1,
     loop:true,
     margin:0,
     nav:true,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true
 });
@@ -21,3 +14,19 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('autoplay.stop.owl')
 })
+$(document).ready(function(){
+    $(".navbar-nav").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+$(document).ready(function(){
+    $(".footer-links").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
