@@ -4,7 +4,7 @@ owl.owlCarousel({
     loop:true,
     margin:0,
     nav:true,
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true
 });
