@@ -12,7 +12,7 @@ a:hover {
     text-decoration: none;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: ;
+    color: #f08a14;
 }
 .header-page {
     border-bottom: none;
@@ -65,7 +65,68 @@ a:hover {
     font-size: 55px;
     color: #f08a14;
 }
-
+.goods-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.catalog-item {
+    width: 24%;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.catalog-item-img img {
+    width: 100%;
+}
+.catalog-item-title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+    padding: 0 15px;
+    height: 80px;
+}
+.catalog-item-btn {
+    padding: 15px;
+}
+.owl-feedback-form a, .catalog-item-btn a {
+    background-color: #337ab7;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #337ab7;
+    border-radius: 4px;
+    display: block;
+}
+.owl-feedback-form a:hover, .catalog-item-btn a:hover {
+    background-color: #fff;
+    color: #337ab7;
+}
+.owl-feedback-form {
+    text-align: center;
+    border: 2px solid #337ab7;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.owl-feedback-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+button.close {
+    position: relative;
+    right: 3px;
+    top: 1px;
+    z-index: 1;
+}
+.sub-title {
+    margin-bottom: 20px;
+}
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
