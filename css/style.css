@@ -268,4 +268,7 @@ button.close {
     .catalog-item-min .catalog-item-title {
         height: auto;
     }
+    .navbar-toggle {
+        margin: 0;
+    }
 }
