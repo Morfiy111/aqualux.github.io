@@ -144,6 +144,7 @@ button.close {
     border: 1px solid #e6e6e6;
     border-radius: 4px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 .galery-item img {
     width: 100%;
@@ -162,8 +163,109 @@ button.close {
 .free-service {
     margin-bottom: 40px;
 }
+.contacts-block a {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.contacts-block-flex {
+    display: flex;
+}
+.contacts-block {
+    width: 50%;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links a {
+    display: block;
+    text-decoration: none;
+}
+.footer-page-block {
+    padding: 40px 0;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright p {
+    font-size: 12px;
+}
+.footer-links:last-child {
+    text-align: right;
+}
+#button-up {
+    display: none;
+    right: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    width: 56px;
+    color: #333333;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0px 0 0 28px;
+    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    z-index: 9;
+}
+#button-up span {
+    display: block;
+    width: 56px;
+    height: 66px;
+}
+@media (max-width: 1199px) {
+    .catalog-item-min .catalog-item-title {
+        height: 130px;
+    }
+}
+@media (max-width: 991px) {
+    .goods-block {
+        flex-wrap: wrap;
+    }
+    .catalog-item {
+        width: 48%;
+    }
+    .galery-flex-block {
+        flex-wrap: wrap;
+    }
+    .galery-item {
+        width: 48%;
+    }
+}
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
+    }
+    .footer-flex {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .contacts-block-flex {
+        flex-wrap: wrap;
+    }
+    .contacts-block {
+        width: 100%;
+    }
+    .footer-links:last-child {
+        text-align: left;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .galery-item {
+        width: 100%;
+    }
+    .catalog-item {
+        width: 100%;
+    }
+    .catalog-item-min .catalog-item-title {
+        height: auto;
     }
 }

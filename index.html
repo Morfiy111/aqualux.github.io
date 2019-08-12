@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#"><img src="images/logo.jpg" alt=""></a>
+                <img src="images/logo.jpg" alt="">
             </div>
             <div class="collapse navbar-collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
@@ -66,11 +66,11 @@
         </div>
     </div>
     <div class="container">
-        <h1 class="main-page-title">Компания Аквалюкс</h1>
+        <h1 class="main-page-title anchor" name="about" id="about">Компания Аквалюкс</h1>
         <div class="main-page-description">
             ООО «Аквалюкс» специализируется на поставке, продаже, монтаже оборудования для бассейнов, фонтанов, аквапарков. Наш опыт работы составляет 19 лет. При участии наших специалистов были построены бассейны в Курской, Белгородской, Орловской областях, а также в Подмосковье.
         </div>
-        <h2 class="sub-title">Услуги</h2>
+        <h2 class="sub-title anchor" name="service" id="service">Услуги</h2>
         <div class="goods-block">
             <div class="catalog-item">
                 <div class="catalog-item-img">
@@ -195,7 +195,7 @@
                 <i class="fa fa-check-circle-o" aria-hidden="true"></i> Выезд, анализ воды, консультации по очистке , заранее согласовывается по времени
             </div>
         </div>
-        <h2 class="sub-title">Оборудование</h2>
+        <h2 class="sub-title anchor" name="equipment" id="equipment">Оборудование</h2>
         <div class="goods-block">
             <div class="catalog-item catalog-item-min">
                 <div class="catalog-item-img">
@@ -328,22 +328,103 @@
                 </div>
             </div>
         </div>
-        <h2 class="sub-title">Наши работы</h2>
+        <h2 class="sub-title anchor" name="work" id="work">Наши работы</h2>
         <div class="galery-flex-block">
             <div class="galery-item">
                 <a href="images/bassein.JPG" data-fancybox="gallery"><img src="images/bassein.JPG" alt=""></a>
             </div>
             <div class="galery-item">
-                <a href="images/bassein.JPG" data-fancybox="gallery"><img src="images/bassein.JPG" alt=""></a>
+                <a href="images/20150219_094926.jpg" data-fancybox="gallery"><img src="images/20150219_094926.jpg" alt=""></a>
             </div>
             <div class="galery-item">
-                <a href="images/bassein.JPG" data-fancybox="gallery"><img src="images/bassein.JPG" alt=""></a>
+                <a href="images/20150406_094912.jpg" data-fancybox="gallery"><img src="images/20150406_094912.jpg" alt=""></a>
+            </div>
+            <div class="galery-item">
+                <a href="images/20180629_112157.jpg" data-fancybox="gallery"><img src="images/20180629_112157.jpg" alt=""></a>
+            </div>
+            <div class="galery-item">
+                <a href="images/foto0069.jpg" data-fancybox="gallery"><img src="images/foto0069.jpg" alt=""></a>
+            </div>
+            <div class="galery-item">
+                <a href="images/20160114_110135.jpg" data-fancybox="gallery"><img src="images/20160114_110135.jpg" alt=""></a>
+            </div>
+            <div class="galery-item">
+                <a href="images/100_0821.JPG" data-fancybox="gallery"><img src="images/100_0821.JPG" alt=""></a>
+            </div>
+            <div class="galery-item">
+                <a href="images/20150519_104748.jpg" data-fancybox="gallery"><img src="images/20150519_104748.jpg" alt=""></a>
+            </div>
+            <div class="galery-item">
+                <a href="images/P1000226.JPG" data-fancybox="gallery"><img src="images/P1000226.JPG" alt=""></a>
             </div>
         </div>
-        <h2 class="sub-title">Контакты</h2>
-
+        <h2 class="sub-title anchor" name="contact" id="contact">Контакты</h2>
+        <div class="contacts-block-flex">
+            <div class="contacts-block">
+                <a href="tel:+74712514667">+7 (4712) 51-46-67</a>
+                <a href="tel:+79103107862">+7 (910) 310-78-62</a>
+                <a href="tel:+79103106894">+7 (910) 310-68-94</a>
+            </div>
+            <div class="contacts-block">
+                <a href="mailto:aqualux-kursk@yandex.ru">aqualux-kursk@yandex.ru</a>
+                <a href="mailto:v195746@yandex.ru">v195746@yandex.ru</a>
+                <a href="mailto:sobolewwladimir@yandex.ru">sobolewwladimir@yandex.ru</a>
+            </div>
+        </div>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88d47be7eea6226fe124b0eaeab4bf1e348609a6581b56769f48523378c52555&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
 </section>
+<footer class="footer-page-block">
+    <div class="container">
+        <div class="footer-flex">
+            <div class="footer-logo">
+                <img src="images/logo.jpg" alt="">
+            </div>
+            <div class="footer-links">
+                <a href="#about">О компании</a>
+                <a href="#service">Услуги</a>
+            </div>
+            <div class="footer-links">
+                <a href="#equipment">Оборудование</a>
+                <a href="#work">Наши работы</a>
+                <a href="#order" data-toggle="modal" data-target="#footerModal">Написать нам</a>
+                <div class="modal fade" id="footerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="modal-body">
+                                <div class="owl-feedback-form">
+                                    <h3>Рассчитать стоимость</h3>
+                                    <p>Мы поможем вам с расчётом</p>
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Телефон">
+                                    <input type="text" placeholder="email">
+                                    <a href="#">Отправить заявку</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="tel:+74712514667">+7 (4712) 51-46-67</a>
+                <a href="tel:+79103107862">+7 (910) 310-78-62</a>
+                <a href="mailto:aqualux-kursk@yandex.ru">aqualux-kursk@yandex.ru</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <i class="fa fa-copyright" aria-hidden="true"></i> ООО «АКВАЛЮКС», 2019
+        </div>
+        <div class="footer-copyright">
+            <p>Разработано <a href="https://retor.ru" target="_blank">ReTOR</a></p>
+        </div>
+    </div>
+</footer>
+<div id="button-up">
+    <span></span>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="js/bootstrap.js"></script>
